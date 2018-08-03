@@ -115,7 +115,6 @@ public class PdfToPhoto {
             }
         }
         bitmap.setPixels(pixels, 0, width, 0, 0, width, height);
-        long end = System.currentTimeMillis();
         return bitmap;
     }
 
